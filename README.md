@@ -1,4 +1,4 @@
-# ManSio | Misha
+# ManSio 
 
 [🇷🇺 Russian Version](README.ru.md)
 
