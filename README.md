@@ -4,18 +4,18 @@
 
 Engineer-practitioner. Civil engineering technician (PGS) by education, systems researcher by calling.
 
-I build software systems with the same level of responsibility I would apply to construction: focus on structure, protocols, and long-term reliability[cite: 1]. My path is one of "learning-by-doing," supported by rigorous engineering protocols and living documentation[cite: 1].
+I build software systems with the same level of responsibility I would apply to construction: focus on structure, protocols, and long-term reliability[cite: 1]. My path is one of "learning-by-doing," supported by rigorous engineering protocols and living documentation.
 
 ### 🏗 Projects
 * **[MSCodeBase](https://github.com/ManSio/MSCodeBase)** — Extending Zed IDE. My main "proving ground" where I implement AST-aware search, LanceDB, and complex indexing pipelines.
-* **[gemma_agent](https://github.com/ManSio/gemma_agent)** — AI agent experiments. Exploring where LLM "magic" ends and strict protocol constraints begin[cite: 1].
+* **[gemma_agent](https://github.com/ManSio/gemma_agent)** — AI agent experiments. Exploring where LLM "magic" ends and strict protocol constraints begin.
 
 ### ⚙️ Engineering Manifesto
-I don't just write code — I build environments that adhere to strict principles[cite: 1]:
-- **Clean Architecture** (The "Tumbler" pattern: technology shouldn't dictate architecture)[cite: 1].
-- **Transparency** (Every architectural decision is backed by experiments recorded in `EXPERIMENTS_LOG.md`)[cite: 1].
+I don't just write code — I build environments that adhere to strict principles:
+- **Clean Architecture** (The "Tumbler" pattern: technology shouldn't dictate architecture).
+- **Transparency** (Every architectural decision is backed by experiments recorded in `EXPERIMENTS_LOG.md`).
 - **Safety** (Code without tests is incomplete construction)[cite: 1].
-- **Living Documentation** (Code and documentation are synchronized in every commit)[cite: 1].
+- **Living Documentation** (Code and documentation are synchronized in every commit).
 
 ### 🛠 Tech Stack
 <p align="left">
