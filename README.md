@@ -7,7 +7,7 @@ Engineer-practitioner. Civil engineering technician (PGS) by education, systems 
 I build software systems with the same level of responsibility I would apply to construction: focus on structure, protocols, and long-term reliability[cite: 1]. My path is one of "learning-by-doing," supported by rigorous engineering protocols and living documentation.
 
 ### 🏗 Projects
-* **[MSCodeBase](https://github.com/ManSio/MSCodeBase)** — Extending Zed IDE. My main "proving ground" where I implement AST-aware search, LanceDB, and complex indexing pipelines.
+* **[MSCodeBase](https://github.com/ManSio/mscodebase-intelligence)** — Extending Zed IDE. My main "proving ground" where I implement AST-aware search, LanceDB, and complex indexing pipelines.
 * **[gemma_agent](https://github.com/ManSio/gemma_agent)** — AI agent experiments. Exploring where LLM "magic" ends and strict protocol constraints begin.
 
 ### ⚙️ Engineering Manifesto
