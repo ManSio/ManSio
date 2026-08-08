@@ -16,7 +16,13 @@ I don't just write code — I build environments that adhere to strict principle
 - **Transparency** (Every architectural decision is backed by experiments recorded in `EXPERIMENTS_LOG.md`).
 - **Safety** (Code without tests is incomplete construction)[cite: 1].
 - **Living Documentation** (Code and documentation are synchronized in every commit).
+## Research & Writeups
 
+Deep-dives into specific technical findings from building this project:
+
+- [PageRank vs RAG on a Real Codebase: Corrected Numbers, and What I Almost Got Wrong Twice](https://dev.to/mansio/i-measured-pagerank-token-savings-on-a-real-codebase-the-result-will-surprise-you-5bnj) — comparing retrieval methods, with two rounds of honest self-correction
+- [I Asked One AI to Fact-Check Another AI's Audit of My Own Code](https://dev.to/mansio/i-asked-one-ai-to-fact-check-another-ais-audit-of-my-own-code-1ac3)
+- [The Silent Vector Contamination Bug: Why Your Concurrent Embeddings Might Be Lying to You](https://dev.to/mansio/the-silent-vector-contamination-bug-why-your-concurrent-embeddings-might-be-lying-to-you-5fg7)
 ### 🛠 Tech Stack
 <p align="left">
   <img src="https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
