@@ -20,9 +20,20 @@
 
 Подробные разборы конкретных технических находок в процессе разработки проекта:
 
-- [PageRank vs RAG на реальной кодовой базе: исправленные цифры и что я дважды чуть не упустил](https://dev.to/mansio/i-measured-pagerank-token-savings-on-a-real-codebase-the-result-will-surprise-you-5bnj) — сравнение методов ретрива с двумя раундами честной самокоррекции
-- [Я попросил одну ИИ проверить факты в аудите моего кода, сделанном другой ИИ](https://dev.to/mansio/i-asked-one-ai-to-fact-check-another-ais-audit-of-my-own-code-1ac3)
-- [Тихий баг контаминации векторов: почему ваши конкурентные эмбеддинги могут вас обманывать](https://dev.to/mansio/the-silent-vector-contamination-bug-why-your-concurrent-embeddings-might-be-lying-to-you-5fg7)
+## 📚 Исследования и статьи (Deep Dives)
+
+Подробные разборы конкретных технических находок и архитектурных вызовов в процессе разработки проекта:
+
+* 📊 **[PageRank vs RAG на реальной кодовой базе: исправленные цифры и что я дважды чуть не упустил](https://dev.to/mansio/i-measured-pagerank-token-savings-on-a-real-codebase-the-result-will-surprise-you-5bnj)**  
+  *Сравнение методов семантического (Vector RAG) и структурного поиска контекста с двумя раундами честной самокоррекции метрик.*
+  
+* 🛡️ **[Я попросил одну ИИ проверить факты в аудите моего кода, сделанном другой ИИ](https://dev.to/mansio/i-asked-one-ai-to-fact-check-another-ais-audit-of-my-own-code-1ac3)**  
+  *Практический кейс о том, как бороться с галлюцинациями ИИ-аудиторов при анализе безопасности репозитория с помощью перекрестной проверки.*
+  
+* ⚡ **[Тихий баг контаминации векторов: почему ваши конкурентные эмбеддинги могут вас обманывать](https://dev.to/mansio/the-silent-vector-contamination-bug-why-your-concurrent-embeddings-might-be-lying-to-you-5fg7)**  
+  *Технический разбор проблемы потокобезопасности памяти (Thread-safety) при асинхронной генерации эмбеддингов через Intel OpenVINO в Python.*
+
+
 ### 🛠 Технологический стек
 <p align="left">
   <img src="https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
