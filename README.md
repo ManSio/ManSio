@@ -18,11 +18,20 @@ I don't just write code — I build environments that adhere to strict principle
 - **Living Documentation** (Code and documentation are synchronized in every commit).
 ## Research & Writeups
 
-Deep-dives into specific technical findings from building this project:
+## 📚 Research & Deep Dives
 
-- [PageRank vs RAG on a Real Codebase: Corrected Numbers, and What I Almost Got Wrong Twice](https://dev.to/mansio/i-measured-pagerank-token-savings-on-a-real-codebase-the-result-will-surprise-you-5bnj) — comparing retrieval methods, with two rounds of honest self-correction
-- [I Asked One AI to Fact-Check Another AI's Audit of My Own Code](https://dev.to/mansio/i-asked-one-ai-to-fact-check-another-ais-audit-of-my-own-code-1ac3)
-- [The Silent Vector Contamination Bug: Why Your Concurrent Embeddings Might Be Lying to You](https://dev.to/mansio/the-silent-vector-contamination-bug-why-your-concurrent-embeddings-might-be-lying-to-you-5fg7)
+Detailed breakdowns of specific technical discoveries and architectural challenges encountered during the development of this project:
+
+* 📊 **[PageRank vs RAG on a Real Codebase: Corrected Numbers, and What I Almost Got Wrong Twice](https://dev.to/mansio/i-measured-pagerank-token-savings-on-a-real-codebase-the-result-will-surprise-you-5bnj)**  
+  *A head-to-head comparison between semantic (Vector RAG) and structural codebase retrieval methods, featuring two rounds of honest metric self-correction.*
+  
+* 🛡️ **[I Asked One AI to Fact-Check Another AI's Audit of My Own Code](https://dev.to/mansio/i-asked-one-ai-to-fact-check-another-ais-audit-of-my-own-code-1ac3)**  
+  *A real-world case study on using cross-verification to defend against high-confidence LLM hallucinations during security code reviews.*
+  
+* ⚡ **[The Silent Vector Contamination Bug: Why Your Concurrent Embeddings Might Be Lying to You](https://dev.to/mansio/the-silent-vector-contamination-bug-why-your-concurrent-embeddings-might-be-lying-to-you-5fg7)**  
+  *A deep dive into thread-safety and memory isolation issues when generating concurrent embeddings locally using Intel OpenVINO in Python.*
+
+
 ### 🛠 Tech Stack
 <p align="left">
   <img src="https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
