@@ -46,9 +46,16 @@ over the way a construction object is handed over: measured claims with a
 validity rule, a dated work log, the ADRs that carry the structure, and a defect
 registry where red is reserved for what is actually open.
 
-| Sheet 1 — test protocols | Sheet 4 — defect registry |
-|---|---|
-| <img src="https://raw.githubusercontent.com/ManSio/MSPortfolio/main/docs/passport/passport-sheet1.en.svg" width="420" alt="Quality passport, sheet 1: test protocols"> | <img src="https://raw.githubusercontent.com/ManSio/MSPortfolio/main/docs/passport/passport-sheet4.en.svg" width="420" alt="Quality passport, sheet 4: defect registry"> |
+<img src="https://raw.githubusercontent.com/ManSio/MSPortfolio/main/docs/passport/passport-sheet1.en.svg" width="860" alt="Quality passport, sheet 1: test protocols">
+
+<details>
+<summary><b>Sheet 4 — defect registry</b> (the only sheet with red)</summary>
+
+<img src="https://raw.githubusercontent.com/ManSio/MSPortfolio/main/docs/passport/passport-sheet4.en.svg" width="860" alt="Quality passport, sheet 4: defect registry">
+
+</details>
+
+[All four sheets, RU and EN →](https://github.com/ManSio/MSPortfolio/tree/main/docs/passport)
 
 [All four sheets, RU and EN →](https://github.com/ManSio/MSPortfolio/tree/main/docs/passport)
 

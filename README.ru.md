@@ -46,9 +46,16 @@
 скрытых работ (ADR), на которых держится конструкция, и реестр брака, где
 красный оставлен только тому, что действительно открыто.
 
-| Лист 1 — протоколы испытаний | Лист 4 — реестр брака |
-|---|---|
-| <img src="https://raw.githubusercontent.com/ManSio/MSPortfolio/main/docs/passport/passport-sheet1.ru.svg" width="420" alt="Паспорт качества, лист 1: протоколы испытаний"> | <img src="https://raw.githubusercontent.com/ManSio/MSPortfolio/main/docs/passport/passport-sheet4.ru.svg" width="420" alt="Паспорт качества, лист 4: реестр брака"> |
+<img src="https://raw.githubusercontent.com/ManSio/MSPortfolio/main/docs/passport/passport-sheet1.ru.svg" width="860" alt="Паспорт качества, лист 1: протоколы испытаний">
+
+<details>
+<summary><b>Лист 4 — реестр брака</b> (единственный лист с красным)</summary>
+
+<img src="https://raw.githubusercontent.com/ManSio/MSPortfolio/main/docs/passport/passport-sheet4.ru.svg" width="860" alt="Паспорт качества, лист 4: реестр брака">
+
+</details>
+
+[Все четыре листа, RU и EN →](https://github.com/ManSio/MSPortfolio/tree/main/docs/passport)
 
 [Все четыре листа, RU и EN →](https://github.com/ManSio/MSPortfolio/tree/main/docs/passport)
 
