@@ -41,21 +41,22 @@ No 95% claim, no "beats RAG", no "better than grep": the measured numbers did no
 
 ## The passport
 
-Those numbers are records, not adjectives. Four A4 sheets hand the repository
-over the way a construction object is handed over: measured claims with a
-validity rule, a dated work log, the ADRs that carry the structure, and a defect
-registry where red is reserved for what is actually open.
+Those numbers are records, not adjectives. Seven A4 sheets hand the repository
+over the way a construction object is handed over: a cover and register, measured
+claims with a validity rule, a dated work log, the ADRs that carry the structure,
+the conditions of use, a defect registry where red is reserved for what is
+actually open, and an acceptance act.
 
-<img src="https://raw.githubusercontent.com/ManSio/MSPortfolio/main/docs/passport/passport-sheet1.en.svg" width="860" alt="Quality passport, sheet 1: test protocols">
+<img src="https://raw.githubusercontent.com/ManSio/MSPortfolio/main/docs/passport/passport-sheet2.en.svg" width="860" alt="Quality passport, sheet 2: test protocols">
 
 <details>
-<summary><b>Sheet 4 — defect registry</b> (the only sheet with red)</summary>
+<summary><b>Sheet 6 — defect registry</b> (the only sheet with red)</summary>
 
-<img src="https://raw.githubusercontent.com/ManSio/MSPortfolio/main/docs/passport/passport-sheet4.en.svg" width="860" alt="Quality passport, sheet 4: defect registry">
+<img src="https://raw.githubusercontent.com/ManSio/MSPortfolio/main/docs/passport/passport-sheet6.en.svg" width="860" alt="Quality passport, sheet 6: defect registry">
 
 </details>
 
-[All four sheets, RU and EN →](https://github.com/ManSio/MSPortfolio/tree/main/docs/passport)
+[All seven sheets, RU and EN →](https://github.com/ManSio/MSPortfolio/tree/main/docs/passport)
 
 [All four sheets, RU and EN →](https://github.com/ManSio/MSPortfolio/tree/main/docs/passport)
 

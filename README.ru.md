@@ -41,21 +41,21 @@
 
 ## Паспорт
 
-Эти числа — записи, а не прилагательные. Четыре листа A4 сдают репозиторий так,
-как сдают объект: замеры с правилом устаревания, журнал работ с датами, акты
-скрытых работ (ADR), на которых держится конструкция, и реестр брака, где
-красный оставлен только тому, что действительно открыто.
+Эти числа — записи, а не прилагательные. Семь листов A4 сдают репозиторий так,
+как сдают объект: титул с ведомостью состава, замеры с правилом устаревания,
+журнал работ с датами, акты скрытых работ (ADR), условия эксплуатации, реестр
+брака, где красный оставлен только открытому, и акт приёмки.
 
-<img src="https://raw.githubusercontent.com/ManSio/MSPortfolio/main/docs/passport/passport-sheet1.ru.svg" width="860" alt="Паспорт качества, лист 1: протоколы испытаний">
+<img src="https://raw.githubusercontent.com/ManSio/MSPortfolio/main/docs/passport/passport-sheet2.ru.svg" width="860" alt="Паспорт качества, лист 2: протоколы испытаний">
 
 <details>
-<summary><b>Лист 4 — реестр брака</b> (единственный лист с красным)</summary>
+<summary><b>Лист 6 — реестр брака</b> (единственный лист с красным)</summary>
 
-<img src="https://raw.githubusercontent.com/ManSio/MSPortfolio/main/docs/passport/passport-sheet4.ru.svg" width="860" alt="Паспорт качества, лист 4: реестр брака">
+<img src="https://raw.githubusercontent.com/ManSio/MSPortfolio/main/docs/passport/passport-sheet6.ru.svg" width="860" alt="Паспорт качества, лист 6: реестр брака">
 
 </details>
 
-[Все четыре листа, RU и EN →](https://github.com/ManSio/MSPortfolio/tree/main/docs/passport)
+[Все семь листов, RU и EN →](https://github.com/ManSio/MSPortfolio/tree/main/docs/passport)
 
 [Все четыре листа, RU и EN →](https://github.com/ManSio/MSPortfolio/tree/main/docs/passport)
 
