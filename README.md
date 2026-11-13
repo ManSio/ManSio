@@ -39,6 +39,19 @@ Numbers that do not hold up are published too.
 
 No 95% claim, no "beats RAG", no "better than grep": the measured numbers did not support any of them.
 
+## The passport
+
+Those numbers are records, not adjectives. Four A4 sheets hand the repository
+over the way a construction object is handed over: measured claims with a
+validity rule, a dated work log, the ADRs that carry the structure, and a defect
+registry where red is reserved for what is actually open.
+
+| Sheet 1 — test protocols | Sheet 4 — defect registry |
+|---|---|
+| <img src="https://raw.githubusercontent.com/ManSio/MSPortfolio/main/docs/passport/passport-sheet1.en.svg" width="420" alt="Quality passport, sheet 1: test protocols"> | <img src="https://raw.githubusercontent.com/ManSio/MSPortfolio/main/docs/passport/passport-sheet4.en.svg" width="420" alt="Quality passport, sheet 4: defect registry"> |
+
+[All four sheets, RU and EN →](https://github.com/ManSio/MSPortfolio/tree/main/docs/passport)
+
 ## How I work
 
 - **Negative results are first-class.** Four rerankers (MiniLM, BGE-base, BGE-M3, Qwen3-0.6B) were measured and rejected: BGE-base cut `hit@1` from 0.688 to 0.625 at 3.1 s per query, and Qwen3-0.6B answered in 29–55 s on a 16-query pilot with `hit@1` 0.500. The rejection stays in the log instead of being deleted.
