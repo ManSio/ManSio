@@ -41,7 +41,7 @@ No 95% claim, no "beats RAG", no "better than grep": the measured numbers did no
 
 ## How I work
 
-- **Negative results are first-class.** Four rerankers (MiniLM, BGE-base, BGE-M3, Qwen3-0.6B) were measured and rejected: `hit@1` fell from 0.688 to 0.625, and reranking cost 3.1–54.8 s per query on CPU. The rejection stays in the log instead of being deleted.
+- **Negative results are first-class.** Four rerankers (MiniLM, BGE-base, BGE-M3, Qwen3-0.6B) were measured and rejected: BGE-base cut `hit@1` from 0.688 to 0.625 at 3.1 s per query, and Qwen3-0.6B answered in 29–55 s on a 16-query pilot with `hit@1` 0.500. The rejection stays in the log instead of being deleted.
 - **A test that cannot fail is not a test.** Before a fix ships, the implementation is broken on purpose to confirm the test goes red.
 - **Living documentation.** Code and its docs change in the same commit; a stale number is a bug.
 - **"Tumbler" pattern.** Technology does not dictate architecture — the database, the model, and the transport are swappable parts.
