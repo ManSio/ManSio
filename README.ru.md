@@ -1,123 +1,70 @@
-<div align="center" style="background:#0a0a0a;color:#fafafa;padding:36px 20px;border-radius:14px;font-family:Inter,system-ui,-apple-system,sans-serif;max-width:900px;margin:0 auto">
+<div align="center">
 
-<!-- Header -->
-<div style="border:1px solid #232a33;border-radius:12px;padding:22px 16px;background:#111418">
+# Михаил / ManSio
 
-<h1 style="margin:0;font-weight:800;letter-spacing:-0.02em">
-  Михаил <span style="color:#00d9ff">/ ManSio</span>
-</h1>
+**Инженер-практик.** Техник-строитель (ПГС) по образованию — программы строю так же, как строят конструкции: с допусками, актами освидетельствования и следом в документах.
 
-<p style="color:#b6bfcc;font-size:14px;margin:6px 0 0">
-  [🇺🇸 <a href="README.md" style="color:#00d9ff">English Version</a>]
-</p>
+[🇺🇸 English version](README.md) · [Живое портфолио](https://mansio.github.io/MSPortfolio/) · [Статьи](https://dev.to/mansio) · [LinkedIn](https://www.linkedin.com/in/ManSio)
 
-</div>
-
-<!-- Intro -->
-<div style="margin-top:14px;text-align:left;background:#111418;border:1px solid #232a33;border-radius:12px;padding:16px">
-
-<p style="color:#fafafa;font-size:15px;margin:0">
-  <b>Инженер-практик.</b> Техник-строитель (ПГС) по образованию, системный исследователь по призванию.
-</p>
-
-<p style="color:#b6bfcc;font-size:14px;margin:10px 0 0;line-height:1.6">
-  Я строю программные системы с тем же уровнем ответственности, с которым строят здания: с запасом прочности, логикой и четкой документацией. Мой подход — <b style="color:#00d9ff">learning-by-doing</b>, подкрепленный жесткими инженерными протоколами и «живой» документацией.
-</p>
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white&labelColor=111418)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white&labelColor=111418)
+![MCP](https://img.shields.io/badge/MCP-00d9ff?style=flat-square&labelColor=111418)
+![SQLite FTS5](https://img.shields.io/badge/SQLite_FTS5-003B57?style=flat-square&logo=sqlite&logoColor=white&labelColor=111418)
+![tree-sitter](https://img.shields.io/badge/tree--sitter-2f3b45?style=flat-square&labelColor=111418)
+![Cloudflare Workers](https://img.shields.io/badge/Workers-F38020?style=flat-square&logo=cloudflare&logoColor=white&labelColor=111418)
 
 </div>
 
-<!-- Projects -->
-<div style="margin-top:14px;text-align:left">
+## Что я строю
 
-<h3 style="color:#00d9ff;font-size:13px;letter-spacing:0.12em;text-transform:uppercase;margin:0 0 10px">🏗 Мои проекты</h3>
+| Проект | Что это | Состояние |
+|---|---|---|
+| [**mscodebase-intelligence**](https://github.com/ManSio/mscodebase-intelligence) | Локальный code intelligence поверх MCP: BM25/FTS5 + AST-граф, impact analysis, память проекта, безопасные записи. Text-first по умолчанию, dense — опционально. Работает с OpenCode и Zed. | `v3.5.0` · Python 3.14 · MIT |
+| [**MSPortfolio**](https://github.com/ManSio/MSPortfolio) | Портфолио, которое одновременно MCP-сервер и движок доказательств: каждое утверждение агента прослеживается до записи в данных, каждый ответ чата показывает сделанные вызовы инструментов. | live · GitHub Pages + Workers |
+| [**gemma_agent**](https://github.com/ManSio/gemma_agent) | Telegram-ассистент для узкого круга — память, маршрутизация, инструменты только когда нужны. | Python |
 
-<table style="border-collapse:separate;border-spacing:0 8px;width:100%">
-<tr>
-<td style="background:#111418;border:1px solid #232a33;border-radius:10px;padding:13px 16px">
-<a href="https://github.com/ManSio/mscodebase-intelligence" style="color:#fafafa;text-decoration:none;font-weight:700">MSCodeBase</a>
-<p style="margin:5px 0 0;color:#b6bfcc;font-size:13px;line-height:1.5">Развитие расширений для Zed IDE. Мой основной «полигон», где я внедряю AST-aware поиск, LanceDB и сложные пайплайны индексации.</p>
-</td>
-</tr>
-<tr>
-<td style="background:#111418;border:1px solid #232a33;border-radius:10px;padding:13px 16px">
-<a href="https://github.com/ManSio/gemma_agent" style="color:#fafafa;text-decoration:none;font-weight:700">gemma_agent</a>
-<p style="margin:5px 0 0;color:#b6bfcc;font-size:13px;line-height:1.5">Эксперименты с AI-агентами. Исследование границ того, что может делать LLM без надзора.</p>
-</td>
-</tr>
-</table>
+## Цифры и их границы
 
-</div>
+Каждое число ниже опубликовано вместе с командой, которая его пересчитывает, —
+в [`docs/FACTS.md`](https://github.com/ManSio/mscodebase-intelligence/blob/main/docs/FACTS.md).
+Числа, которые не подтвердились, тоже опубликованы.
 
-<!-- Manifesto -->
-<div style="margin-top:14px;text-align:left;background:#111418;border:1px solid #232a33;border-radius:12px;padding:16px">
+| Утверждение | Значение | Граница |
+|---|---:|---|
+| Качество поиска по коду, `hit@5` | **0.900** | панель из 48 запросов, замер 2026-10-25 — снимок, не пересчитывается на каждый коммит |
+| Быстрый режим, `hit@5` | **0.729** | та же панель и дата |
+| Инструментов зарегистрировано / видно по умолчанию | **69 / 17** | число зависит от `MSCODEBASE_MCP_PROFILE` |
+| Грамматик языков | **31** | глубина графа зависит от грамматики |
+| Локализация коммитов на внешних репозиториях | **12/25** и **17/40** | `grep` на тех же корпусах дал 19/25 и 20/40 — он выигрывает, и это записано |
 
-<h3 style="color:#00d9ff;font-size:13px;letter-spacing:0.12em;text-transform:uppercase;margin:0 0 10px">⚙️ Инженерный манифест</h3>
+Ни заявленных 95%, ни «лучше RAG», ни «лучше grep»: измеренные числа этого не подтвердили.
 
-<p style="color:#b6bfcc;font-size:14px;margin:0 0 8px">Я не просто пишу код — я создаю рабочие среды, подчиняющиеся принципам:</p>
+## Как я работаю
 
-<ul style="color:#b6bfcc;font-size:14px;margin:0;padding-left:20px;line-height:1.7">
-<li><b style="color:#fafafa">Clean Architecture</b> (принцип «Тумблера»: технология не должна диктовать архитектуру).</li>
-<li><b style="color:#fafafa">Transparency</b> (каждое архитектурное решение обосновано экспериментом, зафиксированным в <code style="color:#00d9ff">EXPERIMENTS_LOG.md</code>).</li>
-<li><b style="color:#fafafa">Safety</b> (код без тестов — это недострой).</li>
-<li><b style="color:#fafafa">Living Documentation</b> (код и документация синхронизированы в одном коммите).</li>
-</ul>
+- **Отрицательный результат — тоже результат.** Четыре реранкера (MiniLM, BGE-base, BGE-M3, Qwen3-0.6B) проверены и отклонены: `hit@1` упал с 0.688 до 0.625, а реранк стоил 3.1–54.8 с на запрос на CPU. Отказ остаётся в журнале, а не удаляется.
+- **Тест, который не умеет падать, — не тест.** Перед сдачей фикса реализация намеренно ломается, чтобы убедиться, что тест краснеет.
+- **Живая документация.** Код и его документация меняются в одном коммите; устаревшее число — это баг.
+- **Принцип «Тумблера».** Технология не диктует архитектуру: база, модель и транспорт — сменные части.
 
-</div>
+## Статьи
 
-<!-- Research -->
-<div style="margin-top:14px;text-align:left;background:#111418;border:1px solid #232a33;border-radius:12px;padding:16px">
+- [**PageRank против RAG на реальной кодовой базе**](https://dev.to/mansio/i-measured-pagerank-token-savings-on-a-real-codebase-the-result-will-surprise-you-5bnj) — семантический и структурный поиск, с двумя раундами самокоррекции метрик.
+- [**Я попросил одну ИИ проверить факты в аудите другой**](https://dev.to/mansio/i-asked-one-ai-to-fact-check-another-ais-audit-of-my-own-code-1ac3) — перекрёстная проверка против уверенных галлюцинаций в security-ревью.
+- [**Тихий баг контаминации векторов**](https://dev.to/mansio/the-silent-vector-contamination-bug-why-your-concurrent-embeddings-might-be-lying-to-you-5fg7) — потокобезопасность и изоляция памяти при конкурентных эмбеддингах (OpenVINO).
 
-<h3 style="color:#00d9ff;font-size:13px;letter-spacing:0.12em;text-transform:uppercase;margin:0 0 10px">📚 Исследования и статьи</h3>
+## Спросить портфолио
 
-<p style="color:#7a8494;font-size:13px;margin:0 0 8px">Подробные разборы конкретных технических находок и архитектурных вызовов в процессе разработки проекта:</p>
+Портфолио — это MCP-сервер, поэтому агент может интервьюировать его, а не скрапить:
 
-<ul style="color:#b6bfcc;font-size:14px;margin:0;padding-left:20px;line-height:1.6">
-<li><b><a href="https://dev.to/mansio/i-measured-pagerank-token-savings-on-a-real-codebase-the-result-will-surprise-you-5bnj" style="color:#fafafa;text-decoration:none">PageRank vs RAG на реальной кодовой базе</a></b> — семантический vs структурный поиск контекста, с двумя раундами честной самокоррекции метрик.</li>
-<li><b><a href="https://dev.to/mansio/i-asked-one-ai-to-fact-check-another-ais-audit-of-my-own-code-1ac3" style="color:#fafafa;text-decoration:none">Я попросил одну ИИ проверить факты в аудите другой ИИ</a></b> — борьба с галлюцинациями ИИ-аудиторов через перекрестную проверку.</li>
-<li><b><a href="https://dev.to/mansio/the-silent-vector-contamination-bug-why-your-concurrent-embeddings-might-be-lying-to-you-5fg7" style="color:#fafafa;text-decoration:none">Тихий баг контаминации векторов</a></b> — потокобезопасность памяти при конкурентных эмбеддингах (OpenVINO).</li>
-</ul>
+```sh
+claude mcp add --transport http msp-portfolio https://msp-portfolio.mansio-dev.workers.dev/mcp
+```
 
-</div>
+Спрашивайте о проектах выше — оно отвечает через инструменты (`get_projects`, `analyze_stack`, `verify_claim`, `get_known_issues`), а не по наитию.
 
-<!-- Stack -->
-<div style="margin-top:14px">
+<div align="center">
 
-<img alt="Python" src="https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white&labelColor=111418" />
-<img alt="LanceDB" src="https://img.shields.io/badge/LanceDB-000000?style=for-the-badge&logo=lancedb&logoColor=white&labelColor=111418" />
-<img alt="MCP" src="https://img.shields.io/badge/MCP_Protocol-00d9ff?style=for-the-badge&labelColor=111418" />
-<img alt="PGS" src="https://img.shields.io/badge/System_Engineering-PGS-0066ff?style=for-the-badge&labelColor=111418" />
-
-</div>
-
-<!-- Stats -->
-<div style="margin-top:14px;display:flex;justify-content:center;gap:12px;flex-wrap:wrap">
-
-<img src="https://github-readme-stats.vercel.app/api?username=ManSio&show_icons=true&theme=radical&bg_color=0a0a0a&title_color=00d9ff&text_color=fafafa&icon_color=00d9ff&border_color=232a33" alt="GitHub stats" height="160" />
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ManSio&layout=compact&theme=radical&bg_color=0a0a0a&title_color=00d9ff&text_color=fafafa&border_color=232a33" alt="Top languages" height="160" />
-
-</div>
-
-<!-- Connect -->
-<div style="margin-top:14px;border:1px solid #232a33;border-radius:12px;padding:16px;background:#111418">
-
-<p style="color:#b6bfcc;font-size:13px;margin:0">
-  <b style="color:#fafafa">Живое портфолио</b> →
-  <a href="https://mansio.github.io/MSPortfolio/" style="color:#00d9ff;text-decoration:none">mansio.github.io/MSPortfolio</a>
-  · <b style="color:#fafafa">Статьи</b> →
-  <a href="https://dev.to/mansio" style="color:#00d9ff;text-decoration:none">dev.to/mansio</a>
-  · <b style="color:#fafafa">LinkedIn</b> →
-  <a href="https://www.linkedin.com/in/ManSio" style="color:#00d9ff;text-decoration:none">in/ManSio</a>
-</p>
-
-<p style="color:#7a8494;font-size:12px;margin:10px 0 0;font-family:ui-monospace,SFMono-Regular,monospace">
-  claude mcp add --transport http msp-portfolio https://msp-portfolio.mansio-dev.workers.dev/mcp
-</p>
-
-<p style="color:#7a8494;font-size:11px;margin:10px 0 0">
-  Спроси портфолио о чём угодно — оно отвечает через MCP-инструменты, а не по наитию.
-</p>
-
-</div>
+<img src="https://github-readme-stats.vercel.app/api?username=ManSio&show_icons=true&hide_title=true&bg_color=0d1117&title_color=00d9ff&text_color=c9d1d9&icon_color=00d9ff&border_color=30363d" alt="GitHub stats" height="150" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ManSio&layout=compact&hide_title=true&bg_color=0d1117&title_color=00d9ff&text_color=c9d1d9&border_color=30363d" alt="Top languages" height="150" />
 
 </div>
